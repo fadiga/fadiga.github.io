@@ -1,39 +1,36 @@
 ---
 layout: default
-title: Home
 ---
 
-<section class="archive">
-{% for post in site.posts %}
-{% unless post.next %}
-
-{% unless forloop.first %}</div></div>{% endunless %}
-
-  <div class="bundle row gutters fadeInDown animated">
-    <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
-    <div class="posts-by-year col span_10">
-
-{% else %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-{% if year != nyear %}
-
-{% unless forloop.first %}</div></div>{% endunless %}
-
-  <div class="bundle row gutters fadeInDown animated">
-    <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
-    <div class="posts-by-year col span_10">
-{% endif %}
-{% endunless %}
-
-  <article class="row gutters">
-    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
-    <div class="post-date col span_4">
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
+<div class="row-fluid">
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <div class="row">
+      <a href="https://avatars1.githubusercontent.com/u/354071?v=2&amp;s=400" aria-hidden="true" itemprop="image"><img class="img-circle" alt="Circular Image" alt="" height="150" src="https://avatars1.githubusercontent.com/u/354071?v=2&amp;s=200" width="150"></a>
     </div>
-  </article>
-
-{% if forloop.last %}</div></div>{% endif %}
-
-{% endfor %}
-</section>
+    <div class="row">
+        {% if site.twitter_username %}
+          <a href="https://twitter.com/{{ site.twitter_username }}"><i class="icon-twitter-squared"></i> {{ site.twitter_username }}</a>
+        {% endif %}
+        {% if site.facebook_page %}
+          <a href="https://facebook.com/{{ site.facebook_page }}"><i class="icon-facebook-squared"></i> {{ site.facebook_page }}</a>
+        {% endif %}
+        {% if site.github_username %}
+          <a href="https://github.com/{{ site.github_username }}"><i class="icon-github-squared"></i> {{ site.github_username }}</a>
+        {% endif %}
+      </div>
+    <div class="row">
+        <address>
+          (223) 76 43 38 90<br />
+          (223) 63 34 14 24<br />
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </address>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <a target="_self" href="{{"/CV_Fadiga.pdf" | prepend: site.baseurl }}"><button class="btn btn-default">CV (PDF)</button>
+      </div>
+    </div>
+  </div>
+</div>
