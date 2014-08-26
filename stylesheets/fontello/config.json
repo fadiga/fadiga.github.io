@@ -7,34 +7,46 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "9755f76110ae4d12ac5f9466c9152031",
-      "css": "book",
-      "code": 59392,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "347c38a8b96a509270fdcabc951e7571",
-      "css": "database",
-      "code": 59393,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "4743b088aa95d6f3b6b990e770d3b647",
-      "css": "facebook-squared",
+      "uid": "bf882b30900da12fca090d9796bc3030",
+      "css": "mail",
       "code": 59395,
       "src": "fontawesome"
     },
     {
-      "uid": "0ece9a12de796b8411f868d582bee678",
-      "css": "github-squared",
+      "uid": "9daa1fdf0838118518a7e22715e83abc",
+      "css": "file-pdf",
+      "code": 59398,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
       "code": 59394,
       "src": "fontawesome"
     },
     {
-      "uid": "906348dc798a0d42715cc97c875e3ac6",
-      "css": "twitter-squared",
-      "code": 59396,
+      "uid": "5e0a374728ffa8d0ae1f331a8f648231",
+      "css": "github",
+      "code": 59393,
       "src": "fontawesome"
+    },
+    {
+      "uid": "58a16628dcbd6456c61218f3d27591be",
+      "css": "skype",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "25a30265650b260ef03df4cbbff80272",
+      "css": "linkedin",
+      "code": 59396,
+      "src": "typicons"
     }
   ]
 }

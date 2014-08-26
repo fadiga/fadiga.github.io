@@ -3,34 +3,34 @@ layout: default
 ---
 
 <div class="row-fluid">
-  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+  <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2">
     <div class="row">
       <a href="https://avatars1.githubusercontent.com/u/354071?v=2&amp;s=400" aria-hidden="true" itemprop="image"><img class="img-circle" alt="Circular Image" alt="" height="150" src="https://avatars1.githubusercontent.com/u/354071?v=2&amp;s=200" width="150"></a>
     </div>
+    <hr>
     <div class="row">
-        {% if site.twitter_username %}
-          <a href="https://twitter.com/{{ site.twitter_username }}"><i class="icon-twitter-squared"></i> {{ site.twitter_username }}</a>
-        {% endif %}
-        {% if site.facebook_page %}
-          <a href="https://facebook.com/{{ site.facebook_page }}"><i class="icon-facebook-squared"></i> {{ site.facebook_page }}</a>
-        {% endif %}
-        {% if site.github_username %}
-          <a href="https://github.com/{{ site.github_username }}"><i class="icon-github-squared"></i> {{ site.github_username }}</a>
-        {% endif %}
-      </div>
+      <a href="https://twitter.com/{{ site.twitter_username }}"><i class="icon-twitter"></i> ibfadiga</a><br/>
+      <a href="https://github.com/{{ site.github_username }}"><i class="icon-github"></i> fadiga</a><br/>
+      <a href="https://www.linkedin.com/pub/ibrahima-fadiga/39/aba/664"><i class="icon-linkedin"></i>ibrahima</a><br/>
+    </div>
+    <hr>
     <div class="row">
-        <address>
-          (223) 76 43 38 90<br />
-          (223) 63 34 14 24<br />
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </address>
+      <address>
+        <span> Boulkassoumbougou </span>
+        <span> Rue:580 Porte: 388 Bamako, Mali </span><br />
+        <i class="icon-phone"></i> (223) 76 43 38 90 <br />
+        <i class="icon-phone"></i> (223) 63 34 14 24 <br />
+        <i class="icon-mail"></i><a href="mailto:{{ site.email }}"> {{ site.email }} </a>
+      </address>
+      <hr>
+    </div>
+    <div class="row">
+      <a href="{{"/CV_Fadiga.pdf" | prepend: site.baseurl }}"><button class="btn btn-default"><i class="icon-file-pdf"></i>CV en français</button></a>  
     </div>
   </div>
-  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        <a target="_self" href="{{"/CV_Fadiga.pdf" | prepend: site.baseurl }}"><button class="btn btn-default">CV (PDF)</button>
-      </div>
-    </div>
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    <h1>Ibrahima Fadiga</h1>
+    <h4>Analyste programmeur chez yɛlɛman s.à.r.l </h4>
+      {% include contents.html %}
   </div>
 </div>
