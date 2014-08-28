@@ -1,2 +1,3 @@
-.task, h4 {float: right;}
-.task{border-bottom: 3px solid;}
+.row h4, .tm {text-align: right;}
+h3 {border-bottom: 1px solid;}
+.descript{text-align: center;}
