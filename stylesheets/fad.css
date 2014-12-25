@@ -1,3 +1,38 @@
 .row h4, .tm {text-align: right;}
-h3 {border-bottom: 1px solid;}
+h3 {-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-right: 0 none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 20px;
+    margin-top: 20px;}
 .descript{text-align: center;}
+
+body {margin-top: 0px;margin-left: 0px;}
+.ft0{font: 33px 'Arial';color: #888888;line-height: 38px;}
+.ft1{font: bold 33px 'Arial';color: #3873b3;line-height: 38px;}
+.ft2{font: 15px 'Arial';color: #737373;line-height: 17px;}
+.ft3{font: bold 19px 'Arial';color: #3873b3;line-height: 22px;}
+.ft4{font: 1px 'Arial';line-height: 1px;}
+.ft5{font: bold 15px 'Arial';line-height: 18px;}
+.ft6{font: italic 15px 'Arial';line-height: 17px;}
+.ft7{font: 13px 'Arial';line-height: 16px;}
+.ft8{font: 1px 'Arial';line-height: 16px;}
+.ft9{font: bold 13px 'Arial';line-height: 16px;}
+.ft10{font: bold 16px 'Arial';color: #3873b3;line-height: 19px;}
+.ft11{font: italic 13px 'Arial';line-height: 16px;}
+.ft12{font: bold 13px 'Arial';color: #3873b3;line-height: 16px;}
+.ft13{font: 13px 'Arial';color: #3873b3;line-height: 16px;}
+.ft14{font: 13px 'Arial';margin-left: 8px;line-height: 16px;}
+.ft15{font: bold 11px 'Arial';color: #3873b3;line-height: 14px;}
+.ft16{font: italic 14px 'Arial';line-height: 16px;}
+.ft17{font: 15px 'Arial';line-height: 17px;}
+.ft18{font: italic 12px 'Arial';line-height: 15px;}
+.ft19{font: 13px 'Arial';line-height: 19px;}
+
+.rights{text-align: right;}
+.ct{text-align: center;}
